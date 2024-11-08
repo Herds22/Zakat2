@@ -19,13 +19,37 @@ class Donatur {
         System.out.println("Jumlah Zakat: " + jumlahZakat);
     }
 
-
     public String getNama() {
         return nama;
+    }
+
+    public void setNama(String nama){
+        this.nama = nama;
+    }
+    
+    public String getAlamat(){
+        return alamat;
+    }
+
+    public void setAlamat(String alamat){
+        this.alamat = alamat;
+    }
+
+    public String getnoTelpone(){
+        return noTelepon;
+    }
+
+    public void setnoTelpon(String noTelepone){
+        this.noTelepon = noTelepone;
     }
 
     public double getJumlahZakat() {
         return jumlahZakat;
     }
+
+    public void setJumlahZakat(double jumlahzakat){
+        this.jumlahZakat = jumlahzakat;
+    }
+
 }
 
