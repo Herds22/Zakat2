@@ -22,4 +22,27 @@ class Penerima {
     public String getNama() {
         return nama;
     }
+
+    public void setNama(String nama){
+        this.nama = nama;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat){
+        this.alamat = alamat;
+    }
+
+    public String getNoTelpon() {
+        return noTelepon;
+    }
+
+    public void setnoTelpon(String notelpon){
+        this.noTelepon = notelpon;
+    }
+
+
+
 }
